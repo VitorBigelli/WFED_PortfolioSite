@@ -72,7 +72,9 @@ html, body {
 	border: none;
 }
 
-
+.hr_content {
+	padding: 0;
+}
 
 .hr {
 	width: 100%;
