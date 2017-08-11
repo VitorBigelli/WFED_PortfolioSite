@@ -11,17 +11,19 @@ html, body {
 }
 
 .header_logo {
+	width: 30%;
 	padding: 0;
 	margin-right: 0;
 }
 .header_title {
+	width: 70%;
 	padding-right: 5px;
 }
 
 .header_logo_image {
-	max-width: 100%;
 	padding: 0;
 	margin: 0;
+	margin-top: 10px;
 }
 
 
@@ -49,6 +51,7 @@ html, body {
 .featured_works {
 	margin-left: 0;
 	padding: 0;
+	padding-left: 10px;
 	margin-bottom: 0;
 }
 
