@@ -3,6 +3,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	display: block;
+	font-family: 'Lato', sans-serif;
 }
 
 .header, .header_title, .main, .footer, .footer_title {
