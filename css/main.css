@@ -14,12 +14,16 @@ html, body {
 	padding: 0;
 	margin-right: 0;
 }
+.header_title {
+	padding-right: 5px;
+}
 
 .header_logo_image {
 	max-width: 100%;
 	padding: 0;
 	margin: 0;
 }
+
 
 .content {
 	max-width: 100%;
@@ -30,7 +34,8 @@ html, body {
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -44,17 +49,21 @@ html, body {
 .featured_works {
 	margin-left: 0;
 	padding: 0;
+	margin-bottom: 0;
 }
 
 .work_item {
 	padding: 0;
 }
 
+.work_item h3 {
+	margin-top: 10px;
+}
+
 .works_image {
-	margin-right: 10px;
 	margin-left: 0;
 	padding: 0;
-	max-width: calc((100%-20px)/3);
+	width: 100%;
 }
 
 .works_image:last-of-type {
@@ -76,4 +85,8 @@ html, body {
 
 .main_image {
 	padding: 0;
+}
+
+.description {
+	padding: 10px;
 }

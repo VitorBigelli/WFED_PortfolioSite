@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<meta name='viewport' content='width=device-width,iniital-scale=1'>
 	<title>Bigelli's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	
 </head>
 <body>
 	<div class='content'>
@@ -14,8 +15,8 @@
 		<section class='row header'>
 			<div class="col-md-6 pull-left header_logo">
 				<picture>
-					<source media='(min-width: 500px) and (max-width: 767px)' srcset='http://placehold.it/80x80'>
-					<source media='(min-width: 768px)' srcset='http://placehold.it/140x140'>	
+					<source media='(max-width: 449px)' srcset='http://placehold.it/100x100'>
+					<source media='(min-width: 450px)' srcset='http://placehold.it/140x140'>	
 					<img src='http://placehold.it/50x50' class='header_logo_image'>
 				</picture>
 			</div>
@@ -26,19 +27,22 @@
 			</div>
 		</section>
 
-		<section class="row horizontal-rule">
-			<div class="col-md-12">
+		<section class="row horizontal_rule">
+			<div class="col-md-12" style='padding: 0;'>
 				<hr class='hr'>
 			</div>
 		</section>
 
 		<section class="row main">
 			<div class='col-md-12 main_image'>
-				<img src='http://placehold.it/900x300' class='img-responsive'>
+				<picture>
+					<source media='(max-width: 450px)' srcset='http://placehold.it/500x250'>
+					<img src='http://placehold.it/900x350' class='img-responsive'>
+				</picture>
 			</div>
 		</section>
 
-		<section class='row footer_title'>
+		<section class='row footer_title text-uppercase'>
 			<div class="col-md-12 featured_works ">
 				<h2>Featured Works</h2>
 			</div>
@@ -46,19 +50,34 @@
 
 		<section class="row footer">
 				<div class="work_item col-md-4 text-center">
-					<img src="http://placehold.it/275x200" class="works_images">
-					<h3>Work Title</h3>
-					<a href=''>GitHub Repository</a>
+					<picture class='item_image'>
+						<img src="http://placehold.it/275x200">
+					</picture>
+					<h3 class='text-uppercase'>Mockup to Article</h3>
+					<div class='description'>
+						<p>Use HTML to transform a mockup pdf file into a website article. </p>
+						<a href=''>GitHub Repository</a>
+					</div>
 				</div>
 				<div class="work_item  col-md-4 text-center">
-					<img src="http://placehold.it/275x200" class="works_images">
-					<h3>Work Title</h3>
-					<a href=''>GitHub Repository</a>
+					<picture class='item_image'>
+						<img src="http://placehold.it/275x200">
+					</picture>
+					<h3 class='text-uppercase'>Animal Trading Card</h3>
+					<div class='description'>
+						<p>Use HTML and CSS to create a static website of an Animal Trading Card. </p>
+						<a href=''>GitHub Repository</a>
+					</div>
 				</div>
 				<div class="work_item col-md-4 text-center">
-					<img src="http://placehold.it/275x200" class="works_images">
-					<h3>Work Title</h3>
-					<a href=''>GitHub Repository</a>
+					<picture class='item_image'>
+						<img src="http://placehold.it/275x200">
+					</picture>
+					<h3 class='text-uppercase'>Portfolio Site</h3>
+					<div class='description'>
+						<p>Use HTML and CSS to create a responsive portfolio website. </p>
+						<a href=''>GitHub Repository</a>
+					</div>
 				</div>
 		</section>
 
