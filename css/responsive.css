@@ -1,3 +1,5 @@
+/* Adjust text and images to small resolution screens */
+
 @media screen and (min-width: 0px) and (max-width: 549px) {
 	.header_title h1 {
 		font-size: 28px;
@@ -47,6 +49,7 @@
 	}
 }
 
+/* Adjust text to better fill the screen */
 @media screen and (min-width: 451px) {
 	.footer_title h2 {
 		font-size: 24px;
@@ -68,6 +71,7 @@
 	}
 }
 
+/* Adjust text and images to medium resolution screens */
 @media screen and (min-width: 550px) and (max-width: 849px) {
 	.work_item {
 		width: 50%;
@@ -85,6 +89,7 @@
 	}
 }
 
+/* Adjust text and images to large resolution screens */
 @media screen and (min-width: 850px) {
 	.container {
 		width: 850px; 
