@@ -1,8 +1,4 @@
 @media screen and (min-width: 0px) and (max-width: 549px) {
-	.content {
-		width: 100%;
-	}
-
 	.header_title h1 {
 		font-size: 28px;
 	}
@@ -90,11 +86,8 @@
 }
 
 @media screen and (min-width: 850px) {
-	.content {
+	.container {
 		width: 850px; 
-		padding: 0; 
-		margin-right: auto;
-		margin-left: auto;
 	}
 	.header_title h1 {
 		font-size: 50px;
